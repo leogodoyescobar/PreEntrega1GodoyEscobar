@@ -13,3 +13,8 @@
     list-style: none;
     color: rgb(204, 238, 252);
 }
+
+.flexCarrito{
+    display: flex;
+    align-items: center;
+}

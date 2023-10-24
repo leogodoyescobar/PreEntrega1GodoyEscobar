@@ -12,7 +12,10 @@ export const NavBar = () => {
                 <li><a href="" >Gatos</a></li>
                 <li><a href="" >Nosotros</a></li>
                 <li><a href="" >Contacto</a></li>
-                <CartWidget/>
+                <div className={`${styles.flexCarrito}`}>
+                    <CartWidget/>
+                    <p>3</p>
+                </div>
             </ul>            
         </nav>
         </>
